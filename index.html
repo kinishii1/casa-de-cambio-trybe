@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <h1>
+        Casa de <span>Câmbio</span>
+      </h1>
+      <form>
+        <label for="moeda">Digite a moeda:</label>
+        <div class="form-control">
+          <input type="text" name="moeda" id="input-currency" placeholder="USD">
+          <button id='search-button' type="submit">Pesquisar</button>
+        </div>
+      </form>
+      <div id="result-div">
+        <h2 class="currencies-list-title"></h2>
+        <div class="currencies-list">
+          <!-- <div class="currency">
+            <div class="currency-icon-name">
+              <img src="./src/icon.svg" alt="">
+              <p id="currency-name">ASD</p>
+            </div>
+            <p id="currency-value">1.234</p>
+          </div>       -->
+        </div>
+      </div>
+    </div>
+  </main>
+  <script type="module" src="./src/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

@@ -5,7 +5,7 @@ O protótipo da aplicação está [nesse link](https://www.figma.com/file/H3gBEi
 
 ## Resultado
 
-![]()
+![](https://github.com/kinishii1/casa-de-cambio-trybe/blob/main/casa-de-cambio.gif)
 
 ## Requisitos
 
